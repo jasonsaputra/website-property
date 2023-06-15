@@ -1,0 +1,28 @@
+.container-left{
+    display: flex;
+    align-items: center;
+  
+    
+  }
+  
+  .container-right{
+    margin-left: 32px;
+    display: flex;
+    align-items: center;
+  }
+
+  .agentImage-container{
+    margin: 32px;
+  }
+  
+  .Text{
+    flex-grow: 1;
+  }
+  
+  .agentImage-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.2);
+  }
