@@ -4,7 +4,8 @@ import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import '../styles/Carousel.css';
 import AgentImage1 from '../assets/agent1.jpg';
-import AgentImage2 from '../assets/trump.jpg'
+import AgentImage2 from '../assets/trump.jpg';
+
 const Carousel = () => {
   const settings = {
     dots: true,

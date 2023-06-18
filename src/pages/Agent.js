@@ -10,8 +10,8 @@ function Agent() {
       <div className="agentList">
             <AgentDetails 
             image={AgentImage}
-            name = "Agent 1"
-            rating = "4.8"/>
+            name = "Beautiful Boy"
+            rating = "5.0 / 5.0"/>
       </div>
     </div>
   );

@@ -1,7 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import '../styles/AgentItem.css'
+// import Box from "../components/PropsAgentItem";
+
 
 function AgentItem({ image, name, rating }) {
+
   return (
     <div className="agentItem">
       <div className="container-left">
@@ -9,15 +13,12 @@ function AgentItem({ image, name, rating }) {
           <img src={image} className="agentImage-card" />
         </div>
         <div className="Text">
+          {/* <itemTextName nama ={itemTextName}/>
+          <itemTextRating rate ={itemTextRating}/> */}
           <h1> {name} </h1>
           <p> {rating} </p>
         </div>
       </div>
-
-      {/* <div className="agentItemName">
-          <h1>Name : Agent 1 </h1>
-          <p> Rating : 4.7/5.0 </p>
-      </div> */}
       
       <div className="container-right">
         <Link to="/agent">
