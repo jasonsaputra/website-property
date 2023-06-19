@@ -3,8 +3,10 @@ import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import '../styles/Carousel.css';
+import { Link } from "react-router-dom";
 import AgentImage1 from '../assets/agent1.jpg';
 import AgentImage2 from '../assets/trump.jpg';
+import AgentImage3 from '../assets/agent3.jpg'
 
 const Carousel = () => {
   const settings = {
@@ -44,7 +46,9 @@ const Carousel = () => {
 
   return (
     <Slider {...settings}>
-      <div className='container-box'>
+      <div  className='container-box'>
+      <Link to="/agent">
+      <div>
         <div className="carousel-slide">
           <div className='img-box'>
           <img className='product--image' src={AgentImage1} alt=''/>
@@ -53,7 +57,9 @@ const Carousel = () => {
           <p>Rating</p>
         </div>
       </div>
-
+      </Link>
+      </div>
+    
       <div className='container-box'>
         <div className="carousel-slide">
           <div className='img-box'>
@@ -67,7 +73,7 @@ const Carousel = () => {
       <div className='container-box'>
         <div className="carousel-slide">
           <div className='img-box'>
-          <img className='product--image' src='https://images.unsplash.com/photo-1560769629-975ec94e6a86?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fHByb2R1Y3RzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60' alt=''/>
+          <img className='product--image' src={AgentImage3} alt=''/>
           </div>
           <h3>Agent 3</h3>
           <p>Rating</p>

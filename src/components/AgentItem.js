@@ -13,8 +13,6 @@ function AgentItem({ image, name, rating }) {
           <img src={image} className="agentImage-card" />
         </div>
         <div className="Text">
-          {/* <itemTextName nama ={itemTextName}/>
-          <itemTextRating rate ={itemTextRating}/> */}
           <h1> {name} </h1>
           <p> {rating} </p>
         </div>
