@@ -1,8 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import '../styles/AgentItem.css'
-// import Box from "../components/PropsAgentItem";
-
 
 function AgentItem({ image, name, rating }) {
 
@@ -20,7 +18,7 @@ function AgentItem({ image, name, rating }) {
       
       <div className="container-right">
         <Link to="/agent">
-          <button>Details</button>
+          <button className="detailsButton">Details</button>
         </Link>
       </div>
     </div>

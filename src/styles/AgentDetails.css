@@ -9,26 +9,23 @@
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
   }
   
-  .box:hover {
-    background-color: #F6F5F7;
-    transition: background-color 0.3s ease;
-  }
-  
+.box:hover {
+  background-color: #F6F5F7;
+  transition: background-color 0.3s ease;
+}
 
-  .box-image {
-      height: auto;
-      width: 200px;
-      margin-bottom: 10px;
-  }
-
-
-  .box-details{
-    
-    font-size: 14px;
-    line-height: 1.5;
-  }
-
-  .box-name{
-    font-size: 18px;
+.box-image {
+     height: auto;
+    width: 200px;
     margin-bottom: 10px;
-  }
+}
+
+.box-details{
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.box-name{
+  font-size: 18px;
+  margin-bottom: 10px;
+}

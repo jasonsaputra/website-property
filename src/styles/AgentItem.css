@@ -3,24 +3,37 @@
     align-items: center;
   }
   
-  .container-right{
-    margin-left: 32px;
-    display: flex;
-    align-items: center;
-  }
+.container-right{
+  margin-left: 32px;
+  display: flex;
+  align-items: center;
+}
 
-  .agentImage-container{
-    margin: 32px;
-  }
+.agentImage-container{
+  margin: 32px;
+}
   
-  .Text{
-    flex-grow: 1;
-  }
+.Text{
+  flex-grow: 1;
+}
   
-  .agentImage-card {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 8px;
-    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.2);
-  }
+.agentImage-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+.detailsButton {
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: #30302e;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+  
+.detailsButton:hover {
+  background-color: #30302e;
+}
